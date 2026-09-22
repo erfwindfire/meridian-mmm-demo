@@ -1,0 +1,17 @@
+{
+  "seed": 20260922,
+  "chains": 4,
+  "adapt": 1500,
+  "burnin": 500,
+  "draws_per_chain": 2000,
+  "sampling_seconds": 127.15,
+  "target_accept_prob": 0.99,
+  "max_tree_depth": 12,
+  "meridian_version": "2.0.0",
+  "data_sha256": "91a202d3c3840abb92c1065f01fc1ecccbe9e5909c21b9b432c5ca1ea767da42",
+  "holdout": "Final 13 weeks in every region",
+  "holdout_weeks": 13,
+  "prior": "Meridian default ROI priors; no ground-truth calibration",
+  "knots": 8,
+  "max_lag": 6
+}
