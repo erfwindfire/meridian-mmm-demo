@@ -1,0 +1,23 @@
+{
+  "seed": 20260922,
+  "weeks": 104,
+  "geos": 4,
+  "channels": [
+    "Search",
+    "Social",
+    "Video"
+  ],
+  "target_roi": [
+    3.0,
+    2.0,
+    1.5
+  ],
+  "adstock_alpha": [
+    0.2,
+    0.45,
+    0.65
+  ],
+  "max_lag": 6,
+  "currency": "GBP",
+  "synthetic": true
+}
