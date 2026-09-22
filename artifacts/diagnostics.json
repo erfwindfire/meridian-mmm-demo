@@ -1,0 +1,10 @@
+{
+  "max_rhat": 1.006602,
+  "min_bulk_ess": 1018.151804,
+  "min_tail_ess": 1332.479294,
+  "divergences": 0,
+  "max_depth_hits": 0,
+  "all_finite": true,
+  "parameter_rows": 155,
+  "passed": true
+}

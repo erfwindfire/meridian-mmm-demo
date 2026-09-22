@@ -1,0 +1,79 @@
+{
+  "run": {
+    "seed": 20260922,
+    "chains": 4,
+    "adapt": 1500,
+    "burnin": 500,
+    "draws_per_chain": 2000,
+    "sampling_seconds": 127.15,
+    "target_accept_prob": 0.99,
+    "max_tree_depth": 12,
+    "meridian_version": "2.0.0",
+    "data_sha256": "91a202d3c3840abb92c1065f01fc1ecccbe9e5909c21b9b432c5ca1ea767da42",
+    "holdout": "Final 13 weeks in every region",
+    "holdout_weeks": 13,
+    "prior": "Meridian default ROI priors; no ground-truth calibration",
+    "knots": 8,
+    "max_lag": 6
+  },
+  "accuracy": {
+    "train": {
+      "mape": 1.1284603435721348,
+      "rmse": 519.6082824183685,
+      "r2": 0.9953019573520091
+    },
+    "holdout": {
+      "mape": 2.4672384191016037,
+      "rmse": 1083.3187090106915,
+      "r2": 0.978747147511098
+    }
+  },
+  "diagnostics": {
+    "max_rhat": 1.006602,
+    "min_bulk_ess": 1018.151804,
+    "min_tail_ess": 1332.479294,
+    "divergences": 0,
+    "max_depth_hits": 0,
+    "all_finite": true,
+    "parameter_rows": 155,
+    "passed": true
+  },
+  "channels": [
+    {
+      "channel": "Search",
+      "spend": 402282.82204717,
+      "roi_low": 2.335154036371757,
+      "roi_median": 2.915069380262586,
+      "roi_high": 3.7554825643460217,
+      "true_roi": 3.0000000000002482,
+      "incremental_revenue": 1194282.9756701856,
+      "probability_roi_above_one": 1.0,
+      "truth_in_interval": true
+    },
+    {
+      "channel": "Social",
+      "spend": 530364.81218463,
+      "roi_low": 1.3839106466624955,
+      "roi_median": 1.738789466243286,
+      "roi_high": 2.2444682840169436,
+      "true_roi": 1.9999999999996985,
+      "incremental_revenue": 937262.9357407457,
+      "probability_roi_above_one": 1.0,
+      "truth_in_interval": true
+    },
+    {
+      "channel": "Video",
+      "spend": 666800.0442353501,
+      "roi_low": 1.180626626202763,
+      "roi_median": 1.456380464662723,
+      "roi_high": 1.833249126371258,
+      "true_roi": 1.5000000000000824,
+      "incremental_revenue": 983438.954732821,
+      "probability_roi_above_one": 0.999125,
+      "truth_in_interval": true
+    }
+  ],
+  "total_spend": 1599447.67846715,
+  "total_revenue": 15193115.044978226,
+  "generated_utc": "2026-09-22T18:29:55.693502+00:00"
+}
