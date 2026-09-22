@@ -8,7 +8,8 @@ A fully executed Google Meridian 2.0.0 marketing mix model using **synthetic dat
 
 - Seeded generator: 104 weeks × 4 fictional regions, three paid media channels, demand and price controls.
 - Real Meridian Bayesian model: geometric adstock, Hill saturation, regional effects, eight time knots, default ROI priors.
-- Four MCMC chains with 1,000 adaptation, 500 burn-in and 1,000 retained draws per chain.
+- Four MCMC chains with 1,500 adaptation, 500 burn-in and 2,000 retained draws per chain.
+- Target acceptance 0.99 and maximum tree depth 12.
 - Final 13 weeks held out from KPI fitting in every region.
 - R-hat, bulk/tail ESS, divergences, maximum tree-depth hits, ROI traces, residuals, prior/posterior distributions and holdout accuracy.
 - Client-facing HTML report and six SVG charts, raw metrics, synthetic truth and a hashed run manifest.
